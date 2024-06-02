@@ -9,3 +9,11 @@ nmap L $
 // insert模式下，jj转到normal模式
 imap jj <Esc>
 ```
+
+# 同步
+由于我的电脑是双系统，所以我希望设置同步，具体做法是使用Git这个插件。
+需要注意的是需要在Custom git binary这个设置底下加上本地的git路径，如果你不知道，可以使用：（windows）
+```powershell
+where git
+```
+来查找。注意！路径一定是`git.exe`的路径，`/bin`路径不可以。
