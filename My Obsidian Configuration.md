@@ -17,3 +17,6 @@ imap jj <Esc>
 where git
 ```
 来查找。注意！路径一定是`git.exe`的路径，`/bin`路径不可以。
+
+
+zotero
