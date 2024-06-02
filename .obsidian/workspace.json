@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "50505c507d14186c",
+        "id": "8d17b3aee663e965",
         "type": "tabs",
         "children": [
           {
-            "id": "ed435f0b1f4ccf85",
+            "id": "37b005e2ec782a06",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -118,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Draft/test.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -142,14 +140,14 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "76b996f3f05980cd",
+  "active": "37b005e2ec782a06",
   "lastOpenFiles": [
+    "Draft/Draft.md",
     "Draft/test.md",
     "My Obsidian Configuration.md",
     "未命名.md",
     "未命名 1.md",
     "Draft/未命名 1.md",
-    "Draft/Draft.md",
     "Excalidraw/Drawing 2024-06-02 11.24.58.excalidraw.md",
     "Draft",
     "Excalidraw",
