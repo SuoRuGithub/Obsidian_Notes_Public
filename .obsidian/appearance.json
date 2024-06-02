@@ -1,0 +1,10 @@
+{
+  "accentColor": "#cf40f7",
+  "theme": "obsidian",
+  "monospaceFontFamily": "Consolas",
+  "interfaceFontFamily": "微软雅黑",
+  "textFontFamily": "仿宋",
+  "baseFontSizeAction": true,
+  "nativeMenus": false,
+  "baseFontSize": 18
+}

@@ -1,0 +1,9 @@
+{
+  "vimMode": true,
+  "showLineNumber": true,
+  "trashOption": "local",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Draft",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./attachments"
+}
