@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9e6a498345629b9b",
+        "id": "50505c507d14186c",
         "type": "tabs",
         "children": [
           {
-            "id": "f37ee0e20af5b8e9",
+            "id": "ed435f0b1f4ccf85",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -118,7 +118,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Draft/test.md"
+              }
             }
           }
         ]
@@ -140,10 +142,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "f37ee0e20af5b8e9",
+  "active": "76b996f3f05980cd",
   "lastOpenFiles": [
-    "My Obsidian Configuration.md",
     "Draft/test.md",
+    "My Obsidian Configuration.md",
     "未命名.md",
     "未命名 1.md",
     "Draft/未命名 1.md",
