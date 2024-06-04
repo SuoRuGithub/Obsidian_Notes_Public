@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ee4e791e54d8c04f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Report.pdf"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Report.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Report.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +146,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "ee4e791e54d8c04f",
+  "active": "76b996f3f05980cd",
   "lastOpenFiles": [
     "Draft/未命名.md",
     "Report.pdf",
