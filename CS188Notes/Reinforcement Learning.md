@@ -12,4 +12,6 @@
 # Model-Free Learning
 主要介绍三个内容，direct evaluation, temporal difference learning, Q-learning。~~学完Q-Learning就可以愉快地写作业了~~
 ## Direct evaluation
-简单的说，这个方法会直接进行
+简单的说，这个方法会直接让智能体进行若干次episode，将所有得到的$(s, a, s^\prime, r)$元组进行平均，得到每个状态的价值
+## Temporal Difference Learning
+和Direct evaluation对比，Temporal difference learning会从每一次经历中学习，而不是对得到奖励的总和进行平均。
