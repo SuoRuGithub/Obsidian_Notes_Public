@@ -8,5 +8,7 @@ $$Q(s, a) = \sum_{s^{\prime}} T(s, a, s^{\prime})(R(s, a, s^{\prime}) + \gamma U
 我们从数学上证明了只要上面式子中的折扣小于一，Bellman算子就是一个收缩映射，我们就可以使用迭代的方法进行计算，从而得到每个状态的$U(s)$，进而得到对应的动作$a$。以上这种方法被称作Value-Iteration。
 
 ---
-对于Value Iteration的复杂度分析。
+
+针对上次的Value Iteration，我们可以分析其复杂度。
+假设总共有$|S|$个状态和$|A|$个动作，每次迭代的过程中我们遍历le
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS188Notes/Policy.md",
+                "file": "CS188Notes/Policy Iteration.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS188Notes/Policy.md",
+                "file": "CS188Notes/Policy Iteration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS188Notes/Policy.md",
+                "file": "CS188Notes/Policy Iteration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS188Notes/Policy.md"
+                "file": "CS188Notes/Policy Iteration.md"
               }
             }
           }
@@ -152,7 +152,7 @@
   "active": "cf9b850112fb5dcc",
   "lastOpenFiles": [
     "Draft/未命名 1.md",
-    "CS188Notes/Policy.md",
+    "CS188Notes/Policy Iteration.md",
     "Draft/Draft.md",
     "未命名 1",
     "CS188Notes",
