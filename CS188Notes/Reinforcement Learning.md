@@ -29,3 +29,4 @@ $$Q_{k + 1}(s, a) \gets \displaystyle \sum_{s^\prime} T(R + \gamma \max_a Q_k(s^
 但是我们不知道$T$，因此我们继续沿用Temporal Difference Learning的做法：
 $$sample = R + \gamma \max_aQ$$
 $$Q(s, a) \gets (1 - \alpha)Q(s, a) + \alpha \cdot sample$$
+一个很有趣的事情是，在Temporal Difference Learning中，我们在计算某个策略下某个状态的价值，但是在使用Q-Learning计算Q价值的时候，我们并不需要预先给定一个策略！因此，我们称Q-Learning的方法是off-policy的，而之前介绍的方法是on-policy的。
