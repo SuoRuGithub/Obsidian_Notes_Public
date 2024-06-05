@@ -32,4 +32,6 @@ $$Q(s, a) \gets (1 - \alpha)Q(s, a) + \alpha \cdot sample$$
 一个很有趣的事情是，在Temporal Difference Learning中，我们在计算某个策略下某个状态的价值，但是在使用Q-Learning计算Q价值的时候，我们并不需要预先给定一个策略！因此，我们称Q-Learning的方法是off-policy的，而之前介绍的方法是on-policy的。
 
 **Approximate Q-Learning**
-Q Learning仍然存在着一些问题，有时候现实的情况太多，无法完全遍历，我们希望提高模型的**泛化能力**，也就死
+Q Learning仍然存在着一些问题，有时候现实的情况太多，无法完全遍历，我们希望提高模型的**泛化能力**，也就是能处理没有见过的类似情形。在经典的Q-Learning中，对于每个状态（Q状态），我们是按照表格的方式记录的，但是在Approximate Q-Learning中，我们记录的是状态的**特征**。
+我们可以用特征向量表示价值函数：
+$$V(s) = \bf{w_1^T} \bf f(s) $$
