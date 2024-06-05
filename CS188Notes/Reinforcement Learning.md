@@ -22,3 +22,5 @@ $$sample = R(s, \pi(s), s^\prime) + \gamma V^\pi(s^\prime)$$
 而
 $$V^{\pi(s)} \gets (1 - \alpha)V^\pi(s) + \alpha \cdot smaple $$
 上式中的$\alpha$是学习率，一般学习率一开始为1，最后慢慢减小到0
+之所以叫做时序差分学习，是因为在学习过程中，我们更注重最新的sample，老的sample会指数级地向0衰减。
+## Q-Learning
