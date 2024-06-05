@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "66016c66871be609",
@@ -164,11 +163,11 @@
   },
   "active": "9558b0bd03bbc858",
   "lastOpenFiles": [
+    "CS188Notes/Policy Iteration.md",
+    "CS188Notes/Reinforcement Learning.md",
     "CS188Notes/attachments/Pasted image 20240605121723.png",
     "CS188Notes/attachments",
     "Draft/Draft.md",
-    "CS188Notes/Reinforcement Learning.md",
-    "CS188Notes/Policy Iteration.md",
     "Draft/未命名 1.md",
     "未命名 1",
     "CS188Notes",
