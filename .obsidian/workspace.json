@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS188Notes/Policy Iteration.md",
+                "file": "CS188Notes/Exploration & Exploitation.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "66016c66871be609",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS188Notes/Policy Iteration.md",
+                "file": "CS188Notes/Exploration & Exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS188Notes/Policy Iteration.md",
+                "file": "CS188Notes/Exploration & Exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS188Notes/Policy Iteration.md"
+                "file": "CS188Notes/Exploration & Exploitation.md"
               }
             }
           }
@@ -163,8 +164,9 @@
   },
   "active": "9558b0bd03bbc858",
   "lastOpenFiles": [
-    "CS188Notes/Reinforcement Learning.md",
     "CS188Notes/Policy Iteration.md",
+    "CS188Notes/Exploration & Exploitation.md",
+    "CS188Notes/Reinforcement Learning.md",
     "CS188Notes/attachments/Pasted image 20240605121723.png",
     "CS188Notes/attachments",
     "Draft/Draft.md",
