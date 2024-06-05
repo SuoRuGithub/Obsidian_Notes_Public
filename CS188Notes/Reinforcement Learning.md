@@ -18,3 +18,7 @@
 在之前的Policy Iteration中，我们这样计算一个状态在一个固定策略下的价值：
 $$V^\pi(s)=\sum_{s^\prime}T(s, \pi(s), s^\prime)(R(s, \pi(s), s^\prime) + \gamma V^\pi(s^\prime)$$
 可是现在，我们并不知道真实世界的$T(s, \pi(s), s^\prime)$，我们应该如何计算一个状态的价值呢？Temporal Dirrerence Learning给出：
+$$sample = R(s, \pi(s), s^\prime) + \gamma V^\pi(s^\prime)$$
+而
+$$V^{\pi(s)} \gets (1 - \alpha)V^\pi(s) + \alpha \cdot smaple $$
+上式中的$\alpha$是学习率，一般学习率一开始为1，最后慢慢减小到0
