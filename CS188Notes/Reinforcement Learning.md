@@ -24,4 +24,8 @@ $$V^{\pi(s)} \gets (1 - \alpha)V^\pi(s) + \alpha \cdot smaple $$
 上式中的$\alpha$是学习率，一般学习率一开始为1，最后慢慢减小到0
 之所以叫做时序差分学习，是因为在学习过程中，我们更注重最新的sample，老的sample会指数级地向0衰减。
 ## Q-Learning
-Q-Learning的想法是直接学习Q value：$Q(s, a)$。在介绍Value Iteration的部分，我们定义了$Q(s, a) =\displaystyle \sum_{s^\prime} T(R + \gamma V)$，而$V = \displaystyle \max_a Q$，因此我们可以使用下面的方法
+Q-Learning的想法是直接学习Q value：$Q(s, a)$。在介绍Value Iteration的部分，我们定义了$Q(s, a) =\displaystyle \sum_{s^\prime} T(R + \gamma V)$，而$V = \displaystyle \max_a Q$，因此我们可以使用下面的方法迭代得到Q:
+$$Q_{k + 1}(s, a) \gets \displaystyle \sum_{s^\prime} T(R + \gamma \max_a Q_k(s^\prime, a))$$
+但是我们不知道$T$，因此我们继续沿用Temporal Difference Learning的做法：
+$$sample = R + \gamma \max_aQ$$
+$$Q(s, a) \gets (1 - \alpha)Q(s, a) + \alpha \cdot sample$$
