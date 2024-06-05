@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9558b0bd03bbc858",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS188Notes/Reinforcement Learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS188Notes/Policy Iteration.md",
+                "file": "CS188Notes/Reinforcement Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS188Notes/Policy Iteration.md",
+                "file": "CS188Notes/Reinforcement Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS188Notes/Policy Iteration.md"
+                "file": "CS188Notes/Reinforcement Learning.md"
               }
             }
           }
@@ -149,11 +162,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "cf9b850112fb5dcc",
+  "active": "9558b0bd03bbc858",
   "lastOpenFiles": [
-    "Draft/未命名 1.md",
-    "CS188Notes/Policy Iteration.md",
     "Draft/Draft.md",
+    "CS188Notes/Reinforcement Learning.md",
+    "CS188Notes/Policy Iteration.md",
+    "Draft/未命名 1.md",
     "未命名 1",
     "CS188Notes",
     "My Obsidian Configuration.md",
