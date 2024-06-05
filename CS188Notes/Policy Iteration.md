@@ -17,5 +17,8 @@ $$Q(s, a) = \sum_{s^{\prime}} T(s, a, s^{\prime})(R(s, a, s^{\prime}) + \gamma U
 计算每个状态在当前Policy下的价值：
 $$\displaystyle U^{\pi_i}_{k+1}(s) \gets \sum_{s^{\prime}} T(s, \pi(s), s^{\prime})(R(s, \pi(s), s^{\prime}) + U^{\pi_i}_k(s^{\prime}))$$
 根据价值改进策略：
-$$\pi_{i + 1}(s) = {\arg\max}_a U(s)$$
-
+$$\begin{aligned}
+\pi_{i + 1}(s) &= {\arg\max}_a U(s) \\
+ &={\arg\max}_a \sum_{s^\prime}T(R + \gamma U^{\pi_i})
+\end{aligned}$$
+3. 当$\pi$收敛，我们就成功了
