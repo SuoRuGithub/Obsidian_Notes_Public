@@ -38,3 +38,6 @@ $$V(s) = \bf{w^T} \bf{f}(s)$$
 $$
 Q(s, a) = \bf{w^T}\bf{f}(s, a)$$
 其中$\bf f$是特征向量，$\bf w$是权重向量。
+因此，Approximate Q-Learning中，只要更新权重向量就可以了。
+![[Pasted image 20240605121723.png]]
+这里我没太搞懂，这定义是怎么来的？
