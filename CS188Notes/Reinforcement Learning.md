@@ -15,3 +15,6 @@
 简单的说，这个方法会直接让智能体进行若干次episode，将所有得到的$(s, a, s^\prime, r)$元组进行平均，得到每个状态的价值
 ## Temporal Difference Learning
 和Direct evaluation对比，Temporal difference learning会从每一次经历中学习，而不是对得到奖励的总和进行平均。
+在之前的Policy Iteration中，我们这样计算一个状态在一个固定策略下的价值：
+$$V^\pi(s)=\sum_{s^\prime}T(s, \pi(s), s^\prime)(R(s, \pi(s), s^\prime) + \gamma V^\pi(s^\prime)$$
+可是现在，我们并不知道真实世界的$T(s, \pi(s), s^\prime)$，我们应该如何计算一个状态的价值呢？Temporal Dirrerence Learning给出：
