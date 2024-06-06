@@ -23,9 +23,11 @@
             "id": "dc5f8a29554b6e46",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-06-06 11.25.12.excalidraw.md"
+                "file": "CS188Notes/13-Bayesian Network.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -97,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-06-06 11.25.12.excalidraw.md",
+                "file": "CS188Notes/13-Bayesian Network.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-06-06 11.25.12.excalidraw.md",
+                "file": "CS188Notes/13-Bayesian Network.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-06-06 11.25.12.excalidraw.md"
+                "file": "CS188Notes/13-Bayesian Network.md"
               }
             }
           }
@@ -162,8 +164,8 @@
   },
   "active": "dc5f8a29554b6e46",
   "lastOpenFiles": [
+    "Excalidraw/BayesNetwork.excalidraw.md",
     "CS188Notes/13-Bayesian Network.md",
-    "Excalidraw/Drawing 2024-06-06 11.25.12.excalidraw.md",
     "CS188Notes/9-Policy Iteration.md",
     "CS188Notes/11-Exploration & Exploitation.md",
     "CS188Notes/10-Reinforcement Learning.md",

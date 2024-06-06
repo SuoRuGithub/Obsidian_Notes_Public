@@ -24,3 +24,6 @@ $$P(X_1, \cdots, X_n) = \prod_{i = 1}^n P (X_i | parents(X_i))$$
 
 这篇博客讲得也很不错：[贝叶斯网络模型的例子详解](https://blog.csdn.net/qq_41603411/article/details/104708470)
 
+![[BayesNetwork.excalidraw]]
+
+上图表示了三种基本的拓扑结构，接下来我们介绍D-Separation的方法，
