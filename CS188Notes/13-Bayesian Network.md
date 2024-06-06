@@ -20,4 +20,6 @@ $$P(X_1, \cdots, X_n) = \prod_{i = 1}^n P (X_i | parents(X_i))$$
 
 # D-Separation
 
-贝叶斯网络的
+贝叶斯网络的拓朴结构反映了随机变量之间的独立性和条件独立性。
+
+
