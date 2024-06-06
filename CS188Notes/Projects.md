@@ -40,4 +40,7 @@ def constructBayesNet(gameState: hunters.GameState):
 
 那其实没有那么难，`variable`就是所有的结点，`edges`中每一个元素是一个`(from, to)`的二元组，但是`domain`是什么呢？这东西困惑了我好久，但是实际上，问题的Discription已经告诉你了，`domain`就是各个变量可以取的值。比如`Ghost/Pacman`变量的取值是地图上的所有坐标点，而`Obs`是观测到的曼哈顿距离，它能取的最大值无非就是整张地图的`X_RANGE` + `Y_RANGE` + `NOISY`罢了。
 
-这没什么难的，搞不出的原因可能就是我英语太渣，Discription没有看m
+这没什么难的，搞不出的原因可能就是我英语太渣，Discription没有看明白。
+
+## Question2: Join Factors
+
