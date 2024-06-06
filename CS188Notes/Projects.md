@@ -58,7 +58,7 @@ P(V | W) \cdot P(X|Y) \cdot P(Z) = P(V, X, Z | W, Y)$$
 
 在完成这道题目的时候，需要用到`Factor`这个类，但是啥是`Factor`？它有什么作用？
 
-
+事实上，这里的`Factor`类就是封装了一个$P$！准确的说，一个`Factor`就是$P(condi)$
 
 
 
