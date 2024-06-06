@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS188Notes/Projects.md",
+                "file": "CS188Notes/10-Reinforcement Learning.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS188Notes/Projects.md",
+                "file": "CS188Notes/10-Reinforcement Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS188Notes/Projects.md",
+                "file": "CS188Notes/10-Reinforcement Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS188Notes/Projects.md"
+                "file": "CS188Notes/10-Reinforcement Learning.md"
               }
             }
           }
@@ -164,13 +164,13 @@
   "active": "dc5f8a29554b6e46",
   "lastOpenFiles": [
     "CS188Notes/11-Exploration & Exploitation.md",
+    "CS188Notes/12-Probabilistic Inference.md",
     "CS188Notes/Projects.md",
     "CS188Notes/10-Reinforcement Learning.md",
     "CS188Notes/13&14-Bayesian Network.md",
     "CS188Notes/attachments/Pasted image 20240606114523.png",
     "Excalidraw/BayesNetwork.excalidraw.md",
     "CS188Notes/9-Policy Iteration.md",
-    "CS188Notes/12-Probabilistic Inference.md",
     "Draft/未命名 2.md",
     "CS188Notes/attachments/Pasted image 20240605121723.png",
     "CS188Notes/attachments",
