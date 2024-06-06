@@ -44,3 +44,8 @@ def constructBayesNet(gameState: hunters.GameState):
 
 ## Question2: Join Factors
 
+这里就是让我们返回一个联合概率。下面是几个例子：
+
+输入$[P(V, W | X, Y, Z), P(X, Y | Z)]$
+得到联合概率：$P(V, W | X, Y, Z) \dot P(X, Y | Z) = P(V, W, X, Y | Z)$
+
