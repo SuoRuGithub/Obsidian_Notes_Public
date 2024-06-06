@@ -45,13 +45,15 @@ def constructBayesNet(gameState: hunters.GameState):
 ## Question2: Join Factors
 
 这里就是让我们返回一个联合概率，主要就是利用概率计算的链式法则，链式法则本身是不困难的，但是运用它对一些概率的式子进行化简可能没那么容易。下面是几个例子：
-
-
-
-
-输入$[P(V, W | X, Y, Z), P(X, Y | Z)]$
-
-得到联合概率：$P(V, W | X, Y, Z) \cdot P(X, Y | Z) = P(V, W, X, Y | Z)$
+1. $$\begin{align}
+&P(V, W | X, Y, Z) \cdot P(X, Y | Z) \\
+=& \frac{P(V, W, X, Y , Z)}{P(X, Y, Z)} \cdot P(X, Y | Z)\\
+=&\frac{P(V, W, X,Y,Z)}{P(X, Y | Z) \cdot P(Z)} \cdot P(X, Y |Z) \\
+=&P(V, W, X, Y|Z)
+\end{align}
+$$
+2. $$P(X | Y, Z) \cdot P(Y) = P(X,Y|Z)$$
+$$
 
 *写这里的时候我发现我对上面式子的符号的认识是不正确的，比如上式中$P(V, W | X, Y, Z)$表示的含义是，在$X, Y, Z$的条件下$V, W$联合发生的概率。*
 
