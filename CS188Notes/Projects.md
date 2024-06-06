@@ -54,5 +54,9 @@ def constructBayesNet(gameState: hunters.GameState):
 
 *可我还是不明白上面的式子为什么成立，可能需要再学一学概率的链式法则*
 
+### Chain Rule
+
+
+
 
 
