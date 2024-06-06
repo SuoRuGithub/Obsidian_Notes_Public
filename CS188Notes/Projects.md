@@ -44,7 +44,10 @@ def constructBayesNet(gameState: hunters.GameState):
 
 ## Question2: Join Factors
 
-这里就是让我们返回一个联合概率。下面是几个例子：
+这里就是让我们返回一个联合概率，主要就是利用概率计算的链式法则，链式法则本身是不困难的，但是运用它对一些概率的式子进行化简可能没那么容易。下面是几个例子：
+
+
+
 
 输入$[P(V, W | X, Y, Z), P(X, Y | Z)]$
 
@@ -54,7 +57,7 @@ def constructBayesNet(gameState: hunters.GameState):
 
 *可我还是不明白上面的式子为什么成立，可能需要再学一学概率的链式法则*
 
-### Chain Rule
+
 
 
 

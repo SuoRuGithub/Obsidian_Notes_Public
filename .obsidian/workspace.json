@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "26736689c67fc8e2",
+        "id": "5aa2e989eabdf768",
         "type": "tabs",
         "children": [
           {
-            "id": "e44626a873522d5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS188Notes/13&14-Bayesian Network.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dc5f8a29554b6e46",
+            "id": "1b6d55d94d3884f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -162,14 +149,14 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "dc5f8a29554b6e46",
+  "active": "1b6d55d94d3884f3",
   "lastOpenFiles": [
+    "CS188Notes/13&14-Bayesian Network.md",
+    "CS188Notes/Projects.md",
     "CS188Notes/attachments/Pasted image 20240607060124.png",
     "CS188Notes/10-Reinforcement Learning.md",
     "CS188Notes/11-Exploration & Exploitation.md",
     "CS188Notes/12-Probabilistic Inference.md",
-    "CS188Notes/Projects.md",
-    "CS188Notes/13&14-Bayesian Network.md",
     "CS188Notes/attachments/Pasted image 20240606114523.png",
     "Excalidraw/BayesNetwork.excalidraw.md",
     "CS188Notes/9-Policy Iteration.md",
