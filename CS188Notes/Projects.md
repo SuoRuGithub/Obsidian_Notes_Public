@@ -47,5 +47,7 @@ def constructBayesNet(gameState: hunters.GameState):
 这里就是让我们返回一个联合概率。下面是几个例子：
 
 输入$[P(V, W | X, Y, Z), P(X, Y | Z)]$
-得到联合概率：$P(V, W | X, Y, Z) \dot P(X, Y | Z) = P(V, W, X, Y | Z)$
 
+得到联合概率：$P(V, W | X, Y, Z) \cdot P(X, Y | Z) = P(V, W, X, Y | Z)$
+
+Note: 为什么？回忆$P(W | X) \
