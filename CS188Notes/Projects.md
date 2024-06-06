@@ -50,4 +50,11 @@ def constructBayesNet(gameState: hunters.GameState):
 
 得到联合概率：$P(V, W | X, Y, Z) \cdot P(X, Y | Z) = P(V, W, X, Y | Z)$
 
-Note: 为什么？回忆$P(W | X) \
+Note: 上面这个式子是网站给的，我觉得不太对，因为
+$$\begin{align}
+&P(V, W | X, Y, Z) \cdot P(X, Y | Z) \\
+=& P(V, W | X, Y | Z) \cdot P(Z)\cdot P(X, Y | Z) \\
+=& P(V, W, X, Y | Z) \cdot P(Z) \\
+=& P(V, W, X, Y, Z)
+\end{align}$$
+~~恕我直言，这个排版效果真丑~~
