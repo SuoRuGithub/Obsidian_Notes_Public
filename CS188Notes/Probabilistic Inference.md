@@ -13,3 +13,9 @@
 而probabilistic inference的目标就是（也许是？），推断出我们希望知道的概率。
 
 # Inference By Enumeration
+
+现在假设我们希望知道概率分布$P(Q1, \cdots, Q_m | e_1, \cdots, e_n )$，我们将所有的随机变量分为：1）Query variables，2）Evidence variables，3）Hidden variables。我们使用下面的方法计算要求的概率分布：
+
+1. 找到所有Evidence variables发生的事件
+2. marginalize所有的Hidden variables
+3. Normalization，使得概率分布总和为1
