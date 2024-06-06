@@ -52,12 +52,9 @@ def constructBayesNet(gameState: hunters.GameState):
 =&P(V, W, X, Y|Z)
 \end{align}
 $$
-2. $$P(X | Y, Z) \cdot P(Y) = P(X,Y|Z)$$
-$$
-
-*写这里的时候我发现我对上面式子的符号的认识是不正确的，比如上式中$P(V, W | X, Y, Z)$表示的含义是，在$X, Y, Z$的条件下$V, W$联合发生的概率。*
-
-*可我还是不明白上面的式子为什么成立，可能需要再学一学概率的链式法则*
+2. $$P(X | Y, Z) \cdot P(Y) = P(X,Y|Z)$$(为什么？)
+3. $$
+P(V | W) \cdot P(X|Y) \cdot P(Z) = P(V, X, Z | W, Y)$$
 
 
 
