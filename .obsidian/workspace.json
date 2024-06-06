@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS188Notes/Probabilistic Inference.md",
+                "file": "CS188Notes/13-Bayesian Network.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS188Notes/Probabilistic Inference.md",
+                "file": "CS188Notes/13-Bayesian Network.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS188Notes/Probabilistic Inference.md",
+                "file": "CS188Notes/13-Bayesian Network.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS188Notes/Probabilistic Inference.md"
+                "file": "CS188Notes/13-Bayesian Network.md"
               }
             }
           }
@@ -151,11 +151,12 @@
   },
   "active": "e44626a873522d5b",
   "lastOpenFiles": [
-    "CS188Notes/Probabilistic Inference.md",
+    "CS188Notes/9-Policy Iteration.md",
+    "CS188Notes/11-Exploration & Exploitation.md",
+    "CS188Notes/10-Reinforcement Learning.md",
+    "CS188Notes/12-Probabilistic Inference.md",
+    "CS188Notes/13-Bayesian Network.md",
     "Draft/未命名 2.md",
-    "CS188Notes/Policy Iteration.md",
-    "CS188Notes/Exploration & Exploitation.md",
-    "CS188Notes/Reinforcement Learning.md",
     "CS188Notes/attachments/Pasted image 20240605121723.png",
     "CS188Notes/attachments",
     "Draft/Draft.md",
