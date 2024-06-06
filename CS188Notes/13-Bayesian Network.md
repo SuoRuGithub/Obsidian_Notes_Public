@@ -26,4 +26,4 @@ $$P(X_1, \cdots, X_n) = \prod_{i = 1}^n P (X_i | parents(X_i))$$
 
 ![[BayesNetwork.excalidraw]]
 
-上图表示了三种基本的拓扑结构，接下来我们介绍D-Separation的方法，
+上图表示了三种基本的拓扑结构，接下来我们介绍D-Separation的方法，来在已有观测的基础上，判断两个结点之间是否相关
