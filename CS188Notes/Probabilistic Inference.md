@@ -19,3 +19,5 @@
 1. 找到所有Evidence variables发生的事件
 2. marginalize所有的Hidden variables
 3. Normalization，使得概率分布总和为1
+
+这个方法有些过于直观了，就像高中生物题目列表格一样。
