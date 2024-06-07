@@ -73,6 +73,6 @@ P(V | W) \cdot P(X|Y) \cdot P(Z) = P(V, X, Z | W, Y)$$
 具体来说，原来的`factor`对应的CPT是这样子的：
 ![[Pasted image 20240607141803.png]]
 
-我们对`W`维度进行eliminate，最后得到的CPT是这样的：
+设置，最后得到的CPT是这样的：
 ![[Pasted image 20240607141847.png]]
 
