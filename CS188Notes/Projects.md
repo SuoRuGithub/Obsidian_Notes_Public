@@ -62,7 +62,17 @@ P(V | W) \cdot P(X|Y) \cdot P(Z) = P(V, X, Z | W, Y)$$
 
 表示了一个什么我也不知道，这个问题我看了一下午，到现在还没搞懂自己在做什么，抄了[CS188-Project-4/factorOperations.py at main · caigun/CS188-Project-4 (github.com)](https://github.com/caigun/CS188-Project-4/blob/main/factorOperations.py)这里的代码
 
+## Question3: Eliminate
 
+说太多没用，直接看我们希望得到的输入输出吧。
 
+**输入**：一个`factor`、一个`eliminationVariable`
 
+**输出**：一个新的`factor`
+
+具体来说，原来的`factor`对应的CPT是这样子的：
+![[Pasted image 20240607141803.png]]
+
+我们对`W`维度进行eliminate，最后得到的CPT是这样的：
+![[Pasted image 20240607141847.png]]
 
