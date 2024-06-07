@@ -58,7 +58,9 @@ P(V | W) \cdot P(X|Y) \cdot P(Z) = P(V, X, Z | W, Y)$$
 
 在完成这道题目的时候，需要用到`Factor`这个类，但是啥是`Factor`？它有什么作用？
 
-事实上，这里的`Factor`表示了一个
+事实上，这里的`Factor`表示了一个？
+
+表示了一个什么我也不知道，这个问题我看了一下午，到现在还没搞懂自己在做什么，抄了[CS188-Project-4/factorOperations.py at main · caigun/CS188-Project-4 (github.com)](https://github.com/caigun/CS188-Project-4/blob/main/factorOperations.py)这里的代码
 
 
 
