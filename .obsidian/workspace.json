@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "20c1c6d555dcf153",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.2"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -161,7 +171,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "2187069223f5ef66",
+  "active": "20c1c6d555dcf153",
   "lastOpenFiles": [
     "Excalidraw/BayesNetwork.excalidraw.md",
     "CS188Notes/attachments/Pasted image 20240606114523.png",
