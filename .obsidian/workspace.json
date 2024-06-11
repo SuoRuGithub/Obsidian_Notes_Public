@@ -4,22 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "5aa2e989eabdf768",
+        "id": "e4ccb6ce8598aef2",
         "type": "tabs",
         "children": [
           {
-            "id": "595bed6443aa7281",
+            "id": "f8120f6db86e72fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Draft/Draft.md",
+                "file": "My Obsidian Configuration.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "965c200c7fbf456f",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-06-11 08.03.10.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Draft/Draft.md",
+                "file": "Excalidraw/Drawing 2024-06-11 08.03.10.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Draft/Draft.md",
+                "file": "Excalidraw/Drawing 2024-06-11 08.03.10.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Draft/Draft.md"
+                "file": "Excalidraw/Drawing 2024-06-11 08.03.10.excalidraw.md"
               }
             }
           }
@@ -148,8 +159,11 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "595bed6443aa7281",
+  "active": "965c200c7fbf456f",
   "lastOpenFiles": [
+    "My Obsidian Configuration.md",
+    "Excalidraw/Drawing 2024-06-11 08.03.10.excalidraw.md",
+    "Draft/Draft.md",
     "Draft/读书报告初稿.md",
     "Excalidraw/BayesNetwork.excalidraw.md",
     "CS188Notes/attachments/Pasted image 20240606114523.png",
@@ -165,11 +179,9 @@
     "CS188Notes/9-Policy Iteration.md",
     "Draft/未命名 2.md",
     "CS188Notes/attachments",
-    "Draft/Draft.md",
     "Draft/未命名 1.md",
     "未命名 1",
     "CS188Notes",
-    "My Obsidian Configuration.md",
     "Draft/未命名.md",
     "Report.pdf",
     "README.md",
